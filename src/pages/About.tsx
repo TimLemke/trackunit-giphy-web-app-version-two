@@ -1,12 +1,17 @@
 import React from 'react';
 
+// About component
 const About = () => {
 	return (
 		<div className='container-fluid'>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-12 my-4 text-center'>
-						<h1>About Page Content Goes Here</h1>
+						{/* Display a message with a heart icon */}
+						<p>
+							This was built with <i className='bi bi-heart-fill'></i> by Tim
+							for Trackunit.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -14,4 +19,5 @@ const About = () => {
 	);
 };
 
+// Export the About component
 export default About;
